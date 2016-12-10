@@ -121,3 +121,21 @@ p.firstPara::first-letter {
   text-align: center;
   font-size: 200%;
 }
+
+.pullQuoteimage{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.pullQuote{
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+}
+
+.PQText{
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 200%;
+}
