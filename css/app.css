@@ -96,6 +96,11 @@ h1{
   .pullQuoteimage{
     padding-bottom: 110px!important;
   }
+
+  .headimg{
+  max-width: 100%;
+  padding-bottom: 0px!important;
+}
 }
 
 
