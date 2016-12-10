@@ -74,8 +74,31 @@ h1{
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
   color: white;
-  font-size: 375%;
+  font-size: 400%;
 }
+
+@media only screen and (max-width: 40em) {
+  h1{
+    font-size: 200%;
+  }
+  .PQText{
+  font-family: 'Playfair Display', serif!important;
+  /*font-weight: 700;*/
+  font-size: 120%!important;
+  font-style: italic;
+  }
+  .quoteAttr{
+  font-family: 'Playfair Display', serif!important;
+  /*font-weight: 700;*/
+  font-size: 120%!important;
+  font-style: italic;
+  }
+  .pullQuoteimage{
+    padding-bottom: 110px!important;
+  }
+}
+
+
 
 h2{
   font-family: 'Oswald', sans-serif;
@@ -137,5 +160,12 @@ p.firstPara::first-letter {
 .PQText{
   font-family: 'Playfair Display', serif;
   font-weight: 700;
-  font-size: 200%;
+  font-size: 175%;
+  font-style: italic;
+}
+
+.quoteAttr{
+  font-family: 'Playfair Display', serif;
+  font-size: 125%;
+  font-style: italic;
 }
