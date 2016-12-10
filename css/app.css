@@ -100,7 +100,11 @@ h1{
   .headimg{
   max-width: 100%;
   padding-bottom: 0px!important;
-}
+  }
+
+  img{
+    padding-top: 10px;
+  }
 }
 
 
@@ -124,6 +128,14 @@ padding-bottom: 30px;
   padding-right: 20px;
   text-transform: uppercase;
 
+}
+
+.photoCaption{
+  text-align: left;
+  font-size: 100%;
+  color: #7f7f7f;
+  padding-right: 20px;
+  /*text-transform: uppercase;*/
 }
 
 .labelrow{
@@ -173,4 +185,11 @@ p.firstPara::first-letter {
   font-family: 'Playfair Display', serif;
   font-size: 125%;
   font-style: italic;
+}
+
+.lastP{
+  padding-bottom: 20px;
+}
+hr{
+  border-top: 8px solid black;
 }
