@@ -74,6 +74,7 @@ h1{
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
   color: white;
+  font-size: 375%;
 }
 
 h2{
@@ -99,7 +100,7 @@ padding-bottom: 30px;
 
 .labelrow{
   position: absolute;
-  bottom: 25%;
+  bottom: 28%;
   left: 5%;
 }
 
