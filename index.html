@@ -234,14 +234,69 @@
 
         <p class="lastP">“I do try to live and be careful of the environment,” she said. “The combination of knowing that cremation is polluting and actually then seeing how good natural burial is for the environment changed my mind. I think sitting there watching the birds kind of confirmed it to me that I made the right choice.”</p>
 
+        <p class = "pageBreak">• •</p>
+
+        <h2 id="sidebarHed">How much does a funeral cost?</h2>
+         <!-- Drop down menu -->
+
+          <select id="select">
+
+          </select>
+
+        <!-- create table -->
+
+        <table id = "results-table">
+            <tbody>
+              <thead>
+                <td></td>
+                <td>Cost</td>
+              </thead>
+              <tr>
+                <td class = "table-label">Conventional Burial</td>
+                <td class = "table-data-container conventional"></td>
+              </tr>
+              <tr>
+                <td class = "table-label">Natural Burial</td>
+                <td class = "table-data-container natural"></td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="source">Source: <a class="sourcelink" href="http://www.nfda.org/news/statistics">National Funeral Directors Association</a></p>
+
         <hr>
 
       </div>
     </div>
 
+
+    <!-- create underscore template for table -->
+
+   <script id="tableTemplate" type="text/template">
+          <tbody>
+            <thead>
+                <td></td>
+                <td>Cost</td>
+            </thead>
+            <tr>
+              <td class = "table-label">Conventional Burial</td>
+              <td class = "table-data-container"><%= obj.conventional %></td>
+            </tr>
+            <tr>
+              <td class = "table-label">Natural Burial</td>
+              <td class = "table-data-container 2013"><%= obj.natural %></td>
+            </tr>
+          </tbody>
+    </script>
+
+    <!--load data -->
+
+    <script src = "js/data/data.js"></script>
+
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
     <script src="js/app.js"></script>
+    <script src ="js/vendor/underscore.js"></script>
+
   </body>
 </html>

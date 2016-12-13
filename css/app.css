@@ -193,3 +193,32 @@ p.firstPara::first-letter {
 hr{
   border-top: 8px solid black;
 }
+
+#sidebarHed{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  color: black;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+td, #select{
+  font-family: 'Oswald', serif;
+}
+
+.source{
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+}
+
+.sourcelink{
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  color: black;
+}
+
+.sourcelink:hover{
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  color: black;
+}
