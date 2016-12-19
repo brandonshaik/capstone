@@ -208,17 +208,17 @@ td, #select{
 
 .source{
   font-family: 'Playfair Display', serif;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .sourcelink{
   font-family: 'Playfair Display', serif;
-  font-size: 18px;
+  font-size: 14px;
   color: black;
 }
 
 .sourcelink:hover{
   font-family: 'Playfair Display', serif;
-  font-size: 18px;
+  font-size: 14px;
   color: black;
 }
